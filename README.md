@@ -36,7 +36,7 @@ _Authors_
 All files were interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 
 
-Installation and execution
+# Installation and execution #
 
 * Clone the repository
  https://github.com/StephOkok/AirBnB_clone.git
@@ -45,9 +45,9 @@ $ cd AirBnB_clone
 * Execute the console file
 /AirBnB_clone$ ./console.py
 
-Console commands
+# Console commands #
 
-The commands available for this command interpreter are:
+_The commands available for this command interpreter are:
 | Command | Description |
 | --- | --- |
 | Create | Creates a new instance of the class passed by argument. |
@@ -103,4 +103,4 @@ or: python3 -m unittest tests/test_models/test_base.py
     PEP8
 # Author #
 - Stephen Okok
-- Github<StephOkok>
+- Github <StephOkok> 
