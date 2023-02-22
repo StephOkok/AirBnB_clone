@@ -48,26 +48,25 @@ $ cd AirBnB_clone
 Console commands
 
 The commands available for this command interpreter are:
-
-|create | Creates a new instance of the class passed by argument.|
-| _____ | ______________________________________________________ |
-|show 	| Prints the string representation of an instance.       |
-|destroy| Deletes an instance that was already created.          |
-|all 	| Prints string representation of all instances or of all instances of a specified class.|
-|update | Updates an instance attribute if exists otherwise create it.|
-|help 	| Show all commands or display information about a specific command.|
-|quit 	| Exit the console.                                      |
-|EOF 	| Exit the console.|         
-|create | destroy and update commands save changes into a JSON file.|
-|create |create <class_name>|
-| show 	|show <class_name> <object_id> ; <class_name>.show(<object_id>)()|
-|destroy|destroy <class_name> <object_id ; <class_name>.destroy(<object_id>)()|
-|all 	|all <class_name> ; <class_name>.all()|
-|update | update <class_name> <object_id> <attribute name> “<attribute value>” ; <class name>.update(<object_id>, <attribute name>, <attribute value>) ; <class name>.update(<object_id>, <dictionary representation>)|
-|help   | help ; help <command_name>|
-| quit 	|quit|
-
-EOF 	    - EOF ; (ctrl + d)
+| Command | Description |
+| --- | --- |
+| Create | Creates a new instance of the class passed by argument. |
+| Show | Prints the string representation of an instance. |
+| Destroy | Deletes an instance that was already created. |
+| All 	| Prints string representation of all instances or of all instances of a specified class.|
+| Update | Updates an instance attribute if exists otherwise create it. |
+| Help | Show all commands or display information about a specific command. |
+| Quit | Exit the console. |                                      |
+| EOF | Exit the console. |         
+| Create | destroy and update commands save changes into a JSON file. |
+| Create | create <class_name> |
+| Show 	| show <class_name> <object_id> ; <class_name>.show(<object_id>)() |
+| Destroy | destroy <class_name> <object_id ; <class_name>.destroy(<object_id>)() |
+| All | all <class_name> ; <class_name>.all() |
+| Update | update <class_name> <object_id> <attribute name> “<attribute value>” ; <class name>.update(<object_id>, <attribute name>, <attribute value>) ; <class name>.update(<object_id>, <dictionary representation>) |
+| Help | help ; help <command_name> |
+| Quit | quit |
+| EOF | EOF ; (ctrl + d) |
 
 ## Storage ##
 
