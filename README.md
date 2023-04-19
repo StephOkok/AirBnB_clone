@@ -46,9 +46,6 @@ All files were interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3
 
 
 Installation and execution
-
-Clone the repository
-https://github.com/vmugabo/AirBnB_clone.git
     
  Move in to the directory
 $ cd AirBnB_clone
@@ -131,8 +128,6 @@ or: python3 -m unittest tests/test_models/test_base.py
     pycodestyle (version 2.7.*)
     PEP8
  
-  6. Authors 
-  
-  Vincent Mugabo
+  6. Author
   
   Fiona Githaiga 
